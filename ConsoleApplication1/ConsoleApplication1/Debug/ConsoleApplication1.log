@@ -1,8 +1,0 @@
-﻿  main.cpp
-d:\workplace\vs2015\consoleapplication1\consoleapplication1\main.cpp(10): warning C4930: “std::vector<n,std::allocator<_Ty>> tmp(void)”: 未调用原型函数(是否是有意用变量定义的?)
-          with
-          [
-              _Ty=n
-          ]
-  ConsoleApplication1.vcxproj -> D:\WorkPlace\VS2015\ConsoleApplication1\Debug\ConsoleApplication1.exe
-  ConsoleApplication1.vcxproj -> D:\WorkPlace\VS2015\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)
