@@ -259,7 +259,7 @@ public class PipelineSystem : MonoBehaviour {//need changed
         
         float mark = 100f;
 
-        while (mark < 1e-3) {
+        while (mark > 1e-3) {
             float td = tmpNormal.t12 + tmpNormal.t14;
             float v1 = Mathf.Pow(1.205f / 1000f, 0.5f) * tmpNormal.v0;
             float p1 = (101325 + tmpNormal.p0) / 101325f * (273f + 20f) / (273f + tmpNormal.t1) * 1.025f;
@@ -306,7 +306,7 @@ public class PipelineSystem : MonoBehaviour {//need changed
       
         float mark = 100f;
 
-        while (mark < 1e-3) {
+        while (mark > 1e-3) {
             float td = tmpSpecial.t22 + tmpSpecial.t24;
             float v1 = Mathf.Pow(1.205f / 1000f, 0.5f) * tmpSpecial.v0;
             float p1 = (101325 + tmpSpecial.p0) / 101325f * (273f + 20f) / (273f + tmpSpecial.t1) * 1.025f;
